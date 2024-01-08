@@ -1,0 +1,85 @@
+.img_match{
+    height: 340px;width: 100%;padding-left: 0px;padding-right: 0px
+}
+.card_match{
+    display: flex;font-size: 15px
+}
+.card_match p{
+    font-size: 13px;
+    margin-top: 6px;
+}
+.match_stad_date{
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: italic;
+    line-height: normal;
+}
+.img_stade_ticket{
+    width: 94%;
+    height: 346px;
+}
+.color_category{
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
+.price_ticket{
+    font-weight: 800;
+    color: orange;
+    margin-left: 30px;
+}
+/**************************************/
+
+.input-wrapper {
+    width: 110px;
+    height: 30px;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 1px 4px 20px 1px #9a00008a;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    padding: 10px;
+    text-align: center;
+}
+
+.input-wrapper * {
+    border: none;
+    width: 50px;
+    flex: 1;
+}
+
+.input-wrapper button {
+    cursor: pointer;
+}
+
+.input-wrapper button:first-child {
+    border-radius: 50% 0 0 50%;
+    color: white;
+    background-color: #339633;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.input-wrapper button:last-child {
+    border-radius: 0 50% 50% 0;
+    color: white;
+    background-color: #339633;
+    font-size: 17px;
+    font-weight: 800;
+}
+#price_total{
+    color: orange;
+    font-weight: 700;
+
+}
